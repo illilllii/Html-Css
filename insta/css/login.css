@@ -1,0 +1,39 @@
+.login {
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login__box {
+    background-color: white;
+    width: 350px;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.login__form form input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: #fafafa;
+}
+.login__form form input, button {
+    width: 100%;
+
+}
+
+.login__app {
+    display: flex;
+    justify-content: center;
+}
+
+.login__app img {
+    width: 146px;
+    height: 40px;
+}

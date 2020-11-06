@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            .header {
+                background-color: yellow;
+                height: 100px;
+            }
+            .flex-container {
+                display:flex;
+                background-color: green;
+                height: 500px;
+                
+            }
+            .footer {
+                height:100px;
+                background-color: indianred;
+            }
+            .left {
+                height: 100%;
+                background-color: orange;
+                width: 20%;
+            }
+            .right {
+                justify-content: flex-end;
+                height: 100%;
+                width: 20%;
+                background-color: red;
+            }
+            .center {
+                display:flex;
+                height: 100%;
+                width:80%;
+                background-color:lawngreen;
+                flex-flow: column;
+            }
+            .item1 {
+                width: 100%;
+                height: 20px;
+                background-color:green;
+            }
+            .item2 {
+                width: 100%;
+                height: 20px;
+                background-color:honeydew;
+            }
+            .item3 {
+                width: 100%;
+                height: 20px;
+                background-color:maroon;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="flex-container">
+            <div class="left"></div>
+            <div class="center">
+                <div class="item1"></div>
+                <div class="item2"></div>
+                <div class="item3"></div>
+            </div>
+            <div class="right"></div>
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>
