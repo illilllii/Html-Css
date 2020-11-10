@@ -23,6 +23,9 @@ a {
     font-weight: 700;
 }
 
+.textmiddle {
+    vertical-align: middle;
+}
 /* mt, mb */
 .mt10 {
     margin-top: 10px;
@@ -41,6 +44,18 @@ a {
 .mt30 {
     margin-top: 20px;
 }
+.fs14 {
+    font-size: 14px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
 .ft15 {
     font-size: 15px;
 }
