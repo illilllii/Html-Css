@@ -9,7 +9,10 @@
 .grid-container > div {
     height: 100%;
     position: relative;
+    width: 100%;
+    padding-top: 100%;
 }
+
 .grid-container > div .container__hover {
 
     position: absolute;
@@ -49,6 +52,8 @@
     margin: 0 0 0 20px;
 }
 .grid-container > div > img {
+    position: absolute;
+    top: 0;
     width:100%;
     height: 100%;
 }

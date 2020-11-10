@@ -1,7 +1,10 @@
 .header {
     background-color: white;
     border-bottom: 2px solid rgb(209, 209, 209);
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 .navigation {
     padding: 10px 0;
@@ -14,9 +17,13 @@
 
 }
 
-
+.navigation .navigation__container .navigation__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navigation .navigation__container .navigation__menu span{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .navigation .navigation__container .navigation__search {
     display: flex;
@@ -59,17 +66,21 @@ hr {
 }
 
 .dropdown {
-    position: absolute;
+
     background-color: white;
 
 }
 
 .dropdirect {
-    display: flex;
-    justify-content: flex-end;
-    width: 82%;
+    width: 500px;
+    min-width: 400px;
+    position: absolute;
     margin: 0 auto;
-
+    top: 100%;
+    bottom: 0;
+    left: -400px;
+    margin-top: 14px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.0975);
 
 }
 .time {
@@ -79,7 +90,7 @@ hr {
 }
 .dropdown {
     border-radius: 6px;
-    width: 35%;
+    width: 500px;
     height: 300px;
     overflow-y: scroll;
 
@@ -132,4 +143,22 @@ hr {
     justify-content: center;
     align-items: center;
     border: 1px solid grey;
+}
+.menu__activity {
+    position: relative;
+}
+
+.dropdown-top {
+    z-index: 1;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 400px;
+    top: -10px;
+    transform: rotate(45deg);
+    background-color: white;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.0975);
+    z-index: -1;
+
 }

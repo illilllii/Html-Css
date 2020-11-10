@@ -8,6 +8,7 @@
 
 body {
     background-color: #FAFAFA;
+    margin-top: 80px;
 }
 
 a {
@@ -78,6 +79,6 @@ a {
 }
 
 .center {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
