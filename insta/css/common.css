@@ -9,10 +9,13 @@
 body {
     background-color: #FAFAFA;
     margin-top: 80px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: #00376b;
 }
 .btn1 {
     margin: 10px 0;
@@ -44,6 +47,9 @@ a {
 }
 .mt30 {
     margin-top: 20px;
+}
+.fs12 {
+    font-size: 12px;
 }
 .fs14 {
     font-size: 14px;
@@ -79,6 +85,10 @@ a {
 }
 
 .center {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.dropdirect hr {
+    background-color: rgb(192, 192, 192);
 }
