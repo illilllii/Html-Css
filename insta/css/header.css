@@ -48,7 +48,7 @@
 .navigation .navigation__container .navigation__search input::placeholder {
     color: rgb(148, 148, 148);
 }
-.navigation .navigation__container .navigation__menu .menu__profile {
+.navigation .navigation__container .navigation__menu a .menu__profile {
     width: 30px;
     height: 30px;
     border: 1px solid rgb(179, 179, 179);
